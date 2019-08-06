@@ -18,7 +18,7 @@ public class App
       System.out.println("3. check sharemem xml file text!");
 
       System.out.println(" ");
-      int idx = common_java.StrToInt_safe(common_java.Scanf(), -1);
+      int idx = common_java.StrToInt_safe(common_java.scanf(), -1);
       switch(idx){
         case 1 : System.out.println(String.format(" 1,create sharemem modules file: %s", createSMconfig()));break;
         case 2 : glx.cn.sh.shmMonitor shmMoni = new glx.cn.sh.shmMonitor();
